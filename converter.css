@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url('https://media.istockphoto.com/id/1006024178/vector/business-and-education-ornament-seamless-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=_t5LymstVISBPyPL5L57ELPJ-4K9JAOQ9kDPRSRX-uM=');
+}
+h1#heading{
+    border: 2px solid green;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20%;
+    padding: 40px;
+    font-size: 60px;
+    color: green;
+
+}
+#container{
+    flex: auto;
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: darkseagreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+.input-div{
+    display: inline-block;
+    flex: auto;
+}
+.input{
+    padding: 5px 10px;
+    flex: auto;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 30px;
+}
+
+
+.tablink {
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+  }
+  
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 0;
+    height: 10%;
+  }
+  .heading{
+    text-align: center;
+    background-color: rgb(32, 121, 77);
+    color: white;
+    font-size: 20px;
+  }
+
+  .tab {
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(9, 95, 47);
+    flex-wrap: nowrap;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: darkseagreen;
+    color: rgb(253, 255, 253);
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+    padding: 14px 16px 12px 12px;
+    font-size: 17px;
+    flex-wrap: nowrap;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: whitesmoke;
+    color:  black;
+    font-size: 22px;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: whitesmoke;
+    color:  black;
+    font-size: 25px;
+
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 1px;
+    border-top: none;
+  }
+
+  .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(9, 95, 47);
+    color: white;
+    text-align: center;
+    }
+  
+
+
+    @media screen and (max-width: 480px){
+      *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-image: url('https://media.istockphoto.com/id/1006024178/vector/business-and-education-ornament-seamless-pattern-vector-illustration.jpg?s=612x612&w=0&k=20&c=_t5LymstVISBPyPL5L57ELPJ-4K9JAOQ9kDPRSRX-uM=');
+    }
+    h1#heading{
+        border: 2px solid green;
+        background-color:whitesmoke;
+        border-radius: 10px;
+        width: 20%;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 30%;
+        padding: 20px;
+        font-size:10px;
+        color: green;
+    }
+    #container{
+        flex: auto;
+        margin: 0 auto;
+        width: 50%;
+        height: 100%;
+        text-align: center;
+        background-color: darkseagreen;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    .input-div{
+        display: inline-block;
+        flex: auto;
+    }
+    .input{
+        padding: 5px 10px;
+        flex: auto;
+        margin: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+    }
+    
+    label{
+        font-size: 8px;
+    }
+
+.tablink {
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 10px;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 0;
+  height: 10%;
+}
+.heading{
+  text-align: center;
+  background-color: rgb(32, 121, 77);
+  color: white;
+  font-size: 18px;
+}
+
+.tab {
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 0;
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgb(9, 95, 47);
+  flex-wrap: nowrap;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: darkseagreen;
+  color: rgb(253, 255, 253);
+  position: relative;
+  cursor: pointer;
+  margin: 8px;
+  padding: 6px;
+  font-size: 7px;
+  flex-wrap: nowrap;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: whitesmoke;
+  color:  black;
+  font-size: 8px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: whitesmoke;
+  color:  black;
+  font-size: 8px;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 0;
+  border-top: none;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  font-size: 10px;
+  background-color: rgb(9, 95, 47);
+  color: white;
+  text-align: center;
+  }
+    }

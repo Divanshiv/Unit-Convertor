@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="converter.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Unit Converter</title>
+  </head>
+  <body>
+    <h1 id="heading">Unit Converter</h1>
+    <br />
+
+    <div class="tab">
+      <button class="tablinks" onclick="unit(event, 'Length')">Length</button>
+      <button class="tablinks" onclick="unit(event, 'Temperature')">
+        Temperature
+      </button>
+      <button class="tablinks" onclick="unit(event, 'Area')">Area</button>
+      <button class="tablinks" onclick="unit(event, 'Weight')">Weight</button>
+      <button class="tablinks" onclick="unit(event, 'Time')">Time</button>
+    </div>
+
+    <!-- length -->
+    <div class="tabcontent" id="Length">
+      <br /><br /><br />
+      <div id="container">
+        <div id="input-div">
+          <label>Feet</label>
+          <input type="number" value="1" id="feet" class="input" />
+        </div>
+        <h1>=</h1>
+        <div id="input-div">
+          <label>Inches</label>
+          <input type="number" value="12" id="inches" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Meters</label>
+          <input type="number" value="0.3048" id="meter" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Centimeter</label>
+          <input type="number" value="30.48" id="cm" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Temperature -->
+
+    <div class="tabcontent" id="Temperature">
+      <br /><br /><br />
+
+      <div id="container">
+        <div id="input-div">
+          <label>Celsius</label>
+          <input type="number" value="1" id="Celsius" class="input" />
+        </div>
+        <h1>=</h1>
+        <div id="input-div">
+          <label>Kelvin</label>
+          <input type="number" value="274.15" id="Kelvin" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Fehrenheit</label>
+          <input type="number" value="33.8" id="Fehrenheit" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Area -->
+
+    <div class="tabcontent" id="Area">
+      <br /><br /><br />
+
+      <div id="container">
+        <div id="input-div">
+          <label>Square KiloMeter</label>
+          <input type="number" value="1" id="km" class="input" />
+        </div>
+        <h1>=</h1>
+        <div id="input-div">
+          <label>Square Meter</label>
+          <input type="number" value="1000000" id="m" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Square CentiMeter</label>
+          <input type="number" value="10000000000" id="cmeter" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Square Foot</label>
+          <input type="number" value="10763910.417" id="foot" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Square Inch</label>
+          <input type="number" value="1550003100" id="inch" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Weight -->
+
+    <div class="tabcontent" id="Weight">
+      <br /><br /><br />
+
+      <div id="container">
+        <div id="input-div">
+          <label>Kilogram</label>
+          <input type="number" value="1" id="kgram" class="input" />
+        </div>
+        <h1>=</h1>
+        <div id="input-div">
+          <label>Gram</label>
+          <input type="number" value="1000" id="gram" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Milligram</label>
+          <input type="number" value="1000000" id="mgram" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Time -->
+
+    <div class="tabcontent" id="Time">
+      <br /><br /><br />
+
+      <div id="container">
+        <div id="input-div">
+          <label>Year</label>
+          <input type="number" value="1" id="year" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Month</label>
+          <input type="number" value="12" id="month" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Week</label>
+          <input type="number" value="52.178" id="week" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Day</label>
+          <input type="number" value="365.25" id="day" class="input" />
+        </div>
+
+        <h1>=</h1>
+        <div id="input-div">
+          <label>Hour</label>
+          <input type="number" value="8766" id="hr" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Minute</label>
+          <input type="number" value="525960" id="minute" class="input" />
+        </div>
+        <div id="input-div">
+          <label>Second</label>
+          <input type="number" value="31557600" id="second" class="input" />
+        </div>
+        <div id="input-div">
+          <label>MilliSecond</label>
+          <input type="number" value="31557600000" id="ms" class="input" />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Made by Divanshiv</p>
+    </div>
+    <br /><br /><br />
+  </body>
+  <script src="converter.js"></script>
+</html>
